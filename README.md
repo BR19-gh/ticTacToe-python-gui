@@ -18,60 +18,24 @@ There's two game modes:
 - First turn will be randomly determined (between 1st player and 2nd player in multiplayer, and between player and Computer in single player)
 
 ## Starting Up
-You should first download `Python-3.9` then run the file in the Python terminal
+You should first download `Python-3.9`, then go to the file directory, then run the file in the terminal via:
+```powershell
+python3 main.py
+```
 ## Some Game Preview
-Start Menu
-```
-Welcome to <X && O>.
+### Start Menu Window
 
-Choose form the menu:
-1- Single Player
-2- Multi-Players
-```
+![Start Menu](https://github.com/BR19-gh/ticTacToe-python-gui/blob/master/preview_imgs/menu.png)
 <hr>
 
-Choosing Character
-```
-Player-1, choose your character, either X or O: 
-```
+### Choosing Character Window
+![Choosing Character](https://github.com/BR19-gh/ticTacToe-python-gui/blob/master/preview_imgs/choose.png)
 <hr>
 
-Gameplay
-```
-% Computer played in position #3 %
-
-The current state of the board is:
--------------
-| O | X | O |
--------------
-| - | X | - |
--------------
-| - | O | - |
--------------
- 
-Use the below figure as a reference:
--------------
-| 1 | 2 | 3 |
--------------
-| 4 | 5 | 6 |
--------------
-| 7 | 8 | 9 |
--------------
-
-Player-X choose position between 1 to 9: 
-```
+### Gameplay Window
+![Gameplay](https://github.com/BR19-gh/ticTacToe-python-gui/blob/master/preview_imgs/gameplay.png)
 <hr>
 
-Wining Message
-```
--------------
-| X | X | X |
--------------
-| O | O | - |
--------------
-| O | - | - |
--------------
-Player-X won, congrats.
-Press Enter to Exit
-```
+### Wining Window
+![Wining Window](https://github.com/BR19-gh/ticTacToe-python-gui/blob/master/preview_imgs/win.png)
 <hr>
